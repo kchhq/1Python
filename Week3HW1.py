@@ -5,7 +5,7 @@ print("값 입력 : ")
 b = input()
 
 print("\n16진수 ==> ", hex(int(b,a)))
-print("\n10진수 ==> ", int(b))
+print("\n10진수 ==> ", int(b,a))
 print("\n8진수 ==> ", oct(int(b,a)))
 print("\n2진수 ==> ", bin(int(b,a)))
 
