@@ -15,3 +15,6 @@ elif OR == 2:
     num2 = int(input("*** 두 번째 숫자를 입력하세요 : "))
     sum = calc_2(num1, num2)
     print(f"{num1}+...+{num2}는 {sum}입니다.")
+
+else :
+    print("입력이 잘못되었습니다. 1 또는 2를 입력해주세요. ")
