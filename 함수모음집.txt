@@ -1,0 +1,57 @@
+hex()  0x -> 16진수
+bin()  0b -> 2진수
+oct()  0o -> 8진수
+
+a.real = 실수부분
+a.imag = 허수부분
+a.conjugate() = 켤레복소수
+
+math.pi = 파이
+math.e = e
+
+abs() = 절댓값
+round() = 반올림
+trunc() = 소수점 아래 버림
+
+factorial() = 팩토리얼
+
+pow() = 제곱
+sqrt() = 제곱근 연산
+
+log(a,b) = logb(a)
+log10(a) = 밑이 10
+
+'a' in b = b 안에 a가 있는가? True 또는 False 반환
+
+len() = 길이 재는 함수. int 반환
+
+문자열 문자열 메소드
+a.startswith('He') =    문자열 a가 He로 시작하는가? True or False 반환
+a.endswith('He') =      문자열 a가 He로 끝나는가?
+a.find('H') =           H가 A 안의 몇번째 자리에 위치하는지 찾음.(앞에서부터)
+a.rfind('H')            뒤에서부터 찾음
+count() =               몇 번 등장하는지 셈
+lstrip()                문자열 왼쪽에 있는 공백을 제거
+rstrip()                문자열 오른쪽에 있는 공백을 제거
+strip() =               문자열 양쪽에 있는 공백을 제거
+isalpha() =             문자열이 알파벳으로만 이루어져 있는가?
+isnumeric() =           문자열이 수로만 이루어져 있는가?
+isalnum() =             문자열이 알파벳과 숫자로만 이루어져 있는가?
+replace() =             문자열의 문자를 찾아서 찾은 부분을 원하는 문자열로 변경
+split() =               문자열을 나눠서 리스트로 만듬
+upper() =               문자열을 모두 대문자로 바꿈
+lower() =               문자열을 모두 소문자로 바꿈
+format() =              
+
+리스트 메소드
+append() =              리스트의 끝에 새 요소를 추가
+extend() =              리스트의 끝에 다른 리스트를 이어 붙임
+insert(위처,데이터) =      위치에 데이터 삽입
+remove() =              엘리멘트 제거
+pop() =                 리스트의 마지막 요소를 제거해서 리스트에서 제거
+index() =               엘리멘트가 저장된 슬롯의 번호를 알려줌
+count() =               파라미터와 같은 데이터가 몇 개 존재하는지 셈
+sort() =                리스트 내의 요소 정렬
+reverse() =             리스트를 거꾸로 정렬
+
+리스트는 [] 이고 튜플은 () 임

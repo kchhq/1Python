@@ -1,3 +1,13 @@
-a = 42
-b = 3.14
-c = "Hello"
+def func(p) :
+    p = 222
+
+v = 111
+func(v)
+print(v)
+
+def func(p)
+    p[0] = 222
+
+v = [111]
+func(v)
+print(v[0])
